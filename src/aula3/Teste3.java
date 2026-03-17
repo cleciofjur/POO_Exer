@@ -47,21 +47,21 @@ public class Teste3 {
 
         moto.calcImposto();
 
-//        System.out.println("-----------------------------------------------------------")
-//
-//        System.out.println("Digite o modelo do caminhão: ");
-//        caminhao.modelo = into.next();
-//
-//        System.out.println("Digite a marca do caminhão: ");
-//        caminhao.marca = into.next();
-//
-//        System.out.println("Digite o valor do caminhão: ");
-//        caminhao.valor = into.nextDouble();
-//
-//        System.out.println("Digite a capacidade de carga do caminhão: ");
-//        caminhao.cap_carga = into.nextInt();
-//
-//        caminhao.calcImposto();
+        System.out.println("-----------------------------------------------------------");
+
+        System.out.println("Digite o modelo do caminhão: ");
+        caminhao.modelo = into.next();
+
+        System.out.println("Digite a marca do caminhão: ");
+        caminhao.marca = into.next();
+
+        System.out.println("Digite o valor do caminhão: ");
+        caminhao.valor = into.nextDouble();
+
+        System.out.println("Digite a capacidade de carga do caminhão: ");
+        caminhao.cap_carga = into.nextInt();
+
+        caminhao.calcImposto();
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("O modelo do veículo: " +veiculo.modelo);
@@ -75,5 +75,12 @@ public class Teste3 {
         System.out.println("As cilindradas da moto: " +moto.cilindradas);
         System.out.println("O valor da moto: " +moto.valor);
         System.out.println("O imposto da moto: " +moto.imposto);
+
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("O modelo do caminhão: " +caminhao.modelo);
+        System.out.println("A marca do caminhão: " +caminhao.marca);
+        System.out.println("A capacidade de carga: " +caminhao.cap_carga);
+        System.out.println("O valor do aminhão: " +caminhao.valor);
+        System.out.println("O imposto do caminhão: " +caminhao.imposto);
     }
 }

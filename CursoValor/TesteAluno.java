@@ -32,7 +32,26 @@ public class TesteAluno {
         System.out.print ("Curso 3: " +curso3.nome+ "valor: R$ " +curso3.valor);
         System.out.print ("Curso 4: " +curso4.nome+ "valor: R$ " +curso4.valor);
 
+        System.out.println ("Digite o número do curso:\n1 - Engenharia de Software\n2 - Engenharia de Computação\n3 - Sistema de Informação\n4 - ADS");
+        int a = into.nextInt();
+
+        if (a == 1) {
+            aluno.curso = curso1;
+        } else if (a == 2) {
+            aluno.curso = curso2;
+        } else if (a == 3) {
+            aluno.curso = curso3;
+        } else if (a == 4) {
+            aluno.curso = curso4;
+        }
+
+        System.out.println ("O nome do aluno é: " +aluno.nome);
+        System.out.println ("A média do aluno é: " +aluno.media);
+        System.out.println ("O status do aluno é: " +aluno.status);
+        System.out.println ("O nome do curso é: " +aluno.curso.nome);
+        System.out.println ("O valor do aluno é: " +aluno.curso.valor);
 
 
+        
     }
 }
